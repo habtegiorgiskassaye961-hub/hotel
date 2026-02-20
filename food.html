@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order meal</title>
+    <link rel="stylesheet" href="homestyle.css">
+    <link rel="stylesheet" href="all-style.css">
+</head>
+<body>
+    <div class="header">
+        <img id="logoimage" src="images/inu logo.png" >
+       <div class="head"> <h1>Ethio Hotel <br>Online Customer Service</h1></div>
+    </div>
+    <br>
+    <div class="mainbody" style="text-align: center; height: 500px;">
+        <div class="headparts">
+            <a id="links" href="home.html" style="font-size: larger;">home</a>
+            <a id="links" href="food.html">ምግብ ይዘዙ</a>
+            <a id="links" href="room.html">መኝታ ክፍል ይያዙ</a>
+            <a id="links" href="payment.html">ክፍያ ከፍለው ይውጡ</a>
+        </div>
+        <br><br>
+        <p style="font-size:40px; text-shadow: 2px 5px 2px rgb(40, 45, 205);"><strong>የሚፈልጉትን ምግብ መርጠው ይዘዙ</strong></p>
+        
+        <label for="food">የምግቡ አይነት:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select name="meal" id="meal" style="width: 170px; height: 25px;">
+            <option value="berger">በርገር</option>
+            <option value="pizza">ፒዛ</option>
+            <option value="pasta">ፓስታ</option>
+        </select><br><br>
+        <label for="drink">የመጠጡ አይነት:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select name="drinks" id="drink" style="width: 170px; height: 25px;">
+            <option value="wuha">ዉሃ</option>
+            <option value="tej">ጠጅ</option>
+            <option value="bira">ቢራ</option>
+        </select><br><br>
+        <label for="time">የመምጫ ሰአት:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="time" id = "time"style="width: 165px;"><br><br><br>
+        <p ><button id="yizezubutton" type="submit" onclick="showfood()">ይዘዙ</button></p>
+    </div>
+    <div class="footer">
+        <h1>Copyright 2018</h1>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>

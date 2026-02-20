@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order meal</title>
+    <link rel="stylesheet" href="homestyle.css">
+    <link rel="stylesheet" href="all-style.css">
+</head>
+<body>
+    <div class="header">
+        <img id="logoimage" src="images/inu logo.png" >
+       <div class="head"> <h1>Ethio Hotel <br>Online Customer Service</h1></div>
+    </div>
+    <br>
+    <div class="mainbody" style="text-align: center; height: 500px;">
+        <div class="headparts">
+            <a id="links" href="home.html" style="font-size: larger;">home</a>
+            <a id="links" href="food.html">ምግብ ይዘዙ</a>
+            <a id="links" href="room.html">መኝታ ክፍል ይያዙ</a>
+            <a id="links" href="payment.html">ክፍያ ከፍለው ይውጡ</a>
+        </div>
+        <br><br>
+        <p style="font-size:40px; text-shadow: 2px 5px 2px rgb(40, 45, 205);"><strong>የሚፈልጉትን ማረፊያ ክፍል መርጠው ይያዙ</strong></p>
+        
+        <label for="bed">መኝታ ክፍል:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select name="bed" id="bed" style="width: 170px; height: 25px;">
+            <option value="single">Single</option>
+            <option value="double">Double</option>
+        </select><br><br>
+        <label for="floor">ያለበት ፎቅ:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="number" id="floor"><br><br>
+        <label for="type">የክፍሉ ቁጥር:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="number" id="room">
+        <p ><button id="yiyazubutton" type="submit" onclick="showroom()">ይያዙ</button></p>
+    </div>
+    <div class="footer">
+        <h1>Copyright 2018</h1>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
