@@ -61,8 +61,8 @@ function showroom(){
     let room = document.getElementById("room").value;
 
     let roomprice = 0;
-    if(bed === "single") roomprice = 500;
-    if(bed === "double") roomprice = 1000;
+    if(bed === "ባለ አንድ") roomprice = 500;
+    if(bed === "ባለ ሁለት") roomprice = 1000;
 
     if(bed === "" || floor === "" || room === ""){
         alert("እባክዎ ሁሉንም ያሟሉ!");
@@ -73,7 +73,7 @@ function showroom(){
     localStorage.setItem("roomprice", roomprice);
 
     alert(
-        "መኝታ ክፍል ተይዟል!\n\n" +
+        "መኝታ ክፍል ይዘዋል!\n\n" +
         "አይነት: " + bed + "\n" +
         "ፎቅ: " + floor + "\n" +
         "ቁጥር: " + room + "\n" +
