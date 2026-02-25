@@ -95,9 +95,10 @@ function showpayment(){
     let total = Number(foodprice) + Number(roomprice);
 
     alert(
-        "🍽 ምግብ: " + foodorder + " = " + foodprice + " ብር\n" +
-        "🛏 መኝታ: " + roominfo + " = " + roomprice + " ብር\n\n" +
-        "💰 ጠቅላላ ክፍያ: " + total + " ብር\n\n" +
+        "ምግብ:  " + foodorder + " = " + foodprice + " ብር\n" +
+        "መኝታ:  " + roominfo + " = " + roomprice + " ብር\n\n" +
+        "ጠቅላላ ክፍያ:  " + total + " ብር\n\n" +
         "ከፍለዋል!"
     );
 }
+
